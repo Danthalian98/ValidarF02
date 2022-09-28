@@ -16,6 +16,14 @@ private:
 	int year;
 	int opc;
 	string a;
+	/*operator const char* ()
+	{
+		ostringstream formattedDate;
+		formattedDate << mes << "/" << dia << "/" << year;
+		String dateInString = formattedDate.str();
+		return dateInstring.c_str();
+	}
+	*/
 };
 
 Fecha::Fecha() {
